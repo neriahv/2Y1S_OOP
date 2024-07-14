@@ -6,6 +6,9 @@ public class Patient {
 
     public Patient (){
     }
+    public Patient (String doctor){
+        doctorName = doctor;
+    }
     public void setPatientID (int patient){
         patientID = patient;
     }
@@ -23,9 +26,6 @@ public class Patient {
     }
     public String [] getConsultations(){
         return consultations;
-    }
-    public void setDoctorName(String patient){
-        doctorName = patient;
     }
     public String getDoctorName(){
         return doctorName;
